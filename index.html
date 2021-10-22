@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Enes</title>
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+		body{
+			padding: 0;
+			margin: 0;
+			background: #202020;color: #fff;
+			text-align: center;
+			font-family: 'Roboto', sans-serif;
+		}
+		a{color: #fff;text-decoration: none;}
+		a:hover{color: #c10000;}
+		input,button{
+			background: #999999;color: #fff;
+		}
+		input:focus, button:hover{
+			background: #c10000
+		}
+
+		input{border: 0;padding: 15px;border-radius: 15px;font-size: 21px;margin: 15px;}
+		input:focus{outline: 0;border: 0;}
+		button{border: 0;padding: 15px;border-radius: 15px;font-size: 21px;margin: 15px;cursor: pointer;}
+		button:hover{outline: 0;border: 0;}
+		hr{border-color: #c10000;}
+	</style>
+</head>
+<body>
+	<h1><a href="https://enesbuyuk.com">EnesBuyuk.com</a></h1>
+	<h2><a href="https://github.com/enesbuyuk/golang-form-data-to-sql">Github.com/EnesBuyuk/golang-form-data-to-sql</a></h2>
+	<h2>GoLang Form Data to SQL | Example Project</h2>
+	<hr>
+	<form action="http://localhost/api" method="POST">
+		<input type="text" name="title" placeholder="Enter the data title"><br>
+		<input type="text" name="content" placeholder="Enter the data content"><br>
+		<button type="submit">Send</button>
+	</form>
+</body>
+</html>
