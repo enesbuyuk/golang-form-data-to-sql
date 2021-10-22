@@ -5,6 +5,8 @@ How to send HTML form elements to sql database in GoLang?
 ``go get github.com/go-sql-driver/mysql``
 
 ## Usage:
+Change db info for according to you in 16-20 line.
+Then,
 ``go run main.go``
 or 
 ``go build main.go && ./main``
