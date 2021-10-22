@@ -6,7 +6,6 @@ import (
 	"net/http"
 	"log"
 	_ "github.com/go-sql-driver/mysql"
-
 )
 
 var yapi *template.Template
@@ -23,7 +22,6 @@ func main() {
 	if err != nil {
 		log.Print(err.Error())
 	}
-
 
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		if r.Method == "POST" {
@@ -42,5 +40,4 @@ func main() {
 		}
 	})
 	http.ListenAndServe(":80", nil)
-	
 }
